@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: #0b1118;
 }
 
 .App-logo {
@@ -35,4 +36,77 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.container-custom {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-custom:hover{
+  transform: scale(1.05);
+}
+.card {
+  transform-style: preserve-3d;
+  min-height: 65vh;
+  width: 19rem;
+  border-radius: 2rem !important;
+  padding: 0rem 2rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+.info{
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+
+
+.info h1 {
+  font-size: 2rem;
+  margin-top: 10px;
+  transition: all 0.75s ease-out;
+}
+.info h3 {
+  font-size: 1.3rem;
+  padding: 2rem 0rem;
+  color: #585858;
+  font-weight: lighter;
+  transition: all 0.75s ease-out;
+}
+.sizes {
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.75s ease-out;
+}
+.sizes button {
+  padding: 0.5rem 2rem;
+  background: none;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #585858;
+}
+.price-pakig{
+  margin-right: auto;
+  margin-left: auto;
+}
+.purchase {
+  margin-top: 5rem;
+  transition: all 0.75s ease-out;
+}
+.purchase button {
+  width: 100%;
+  padding: 1rem 0rem;
+  background: #f54642;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bolder;
+  margin-bottom: 10px;
 }

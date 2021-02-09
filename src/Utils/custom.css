@@ -1,0 +1,346 @@
+.brand-logo{
+    padding-left: 7%;
+}
+.nav-items{
+    padding-right: 50px !important;
+    font-weight: 400;
+    color: #a5bdd9 !important;
+}
+.nav-items:hover{
+    color: #0094ff !important;
+}
+.login-btn{
+    margin-right: 15px !important;
+    background-color:#203146 !important;
+    color: #fff!important;
+    border: none !important;
+    font-weight: 500 !important;
+}
+.regester-btn{
+    font-weight: 500 !important;
+}
+.nav-box{
+background: #0b1118 !important;
+padding-top: 1.9rem !important;
+}
+.baner-section{
+    background: #0b1118;
+    height: 55vh;
+}
+.body-baner{
+    background: #0b1118;
+}
+.baner-image{
+    width: 85%;
+}
+.baner-row{
+    margin-top: 135px;
+}
+.description-baner{
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    
+}
+.image-baner{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.baner-tittle{
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.2;
+    letter-spacing: 1.2;
+    font-size: 5.1rem;
+    text-align: start;
+    transition: 0.5s;
+    position: relative;
+    padding-left: 35px;
+    
+
+
+
+}
+
+.ani-try{animation-name: example;
+    animation-duration: 1s ;}
+    @keyframes example {
+        0%   {left:0px; top:0px;}
+        25%  { left:200px; top:0px;}
+        50%  { left:200px; top:0px;}
+        75%  { left:0px; top:0px;}
+        100% { left:0px; top:0px;}
+  }
+.baner-para{
+    color: #a5bdd9;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    text-align: start;
+    padding-left: 35px;
+}
+.baner-btan{
+    background: #0094ff;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: transparent;
+    text-transform: capitalize;
+    display: flex;
+    font-weight: 600;
+    margin-left: 35px;
+}
+.btan-span{
+    font-size: 1rem;
+    margin-top: 8px;
+    margin-left: 5px;
+    text-transform: lowercase;
+}
+
+.packig-card-tittle{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 235px;
+}
+
+
+
+
+
+.foter-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 32vh;
+    flex-direction: column;
+    background: #ede7f6;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: wrap;
+}
+footer .container-foter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+
+
+}
+footer .container-foter .sec{
+    margin-left: 30px;
+}
+footer .container-foter .sec.about{
+    width: 40%;
+}
+footer .container-foter  .foter-h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: start;
+    font-size: 1.5em;
+}
+footer .container-foter  .foter-h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+
+}
+footer  p{
+    color: #999;
+    text-align: start;
+}
+.sci-foter{
+    margin-top: 20px;
+    display: flex;
+    padding-left: 0;
+}
+.sci-foter .li-foter{
+    list-style: none;
+}
+.sci-foter .li-foter .a-foter{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.sci-foter .li-foter .a-foter:hover{
+    background: #f00;
+}
+.sci-foter .li-foter .a-foter .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.quickLinks{
+    position: relative;
+    width: 25%;
+}
+.quickLinks .quickLinks-ul-foter .quickLinks-li-foter{
+    list-style: none;
+    text-align: start;
+}
+.quickLinks .quickLinks-ul-foter .quickLinks-li-foter .quickLinks-a-foter{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.quickLinks .quickLinks-ul-foter .quickLinks-li-foter .quickLinks-a-foter:hover{
+    color: #fff;
+}
+.quickLinks-ul-foter{
+    padding-left: 0;
+}
+.contact{
+  width: calc(35%  60px);
+  margin-right: 0 !important;
+}
+.contact .contact-info{
+    position: relative;
+    text-align: start;
+    
+}
+.contact .contact-info .contact-li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact .contact-info .contact-li .contact-span:nth-child(1){
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact .contact-info ,.contact-li .contact-span{
+    color: #999;
+}
+.contact .contact-info ,.contact-li .contact-a{
+    color: #999;
+    text-decoration: none;
+    list-style: none;
+}
+.contact .contact-info ,.contact-li .contact-a:hover{
+    color: #fff;
+}
+.contact-info{
+    padding-left: 0;
+}
+.copyrighttext{
+    width: 100%;
+    background: #181818;
+    padding: 8px 100px;
+    text-align: center;
+    color: #999;
+}
+@media (max-width: 991px)
+{
+    footer{
+        padding: 40px;
+    }
+    footer .container-foter{
+        flex-direction: column;
+    }
+    footer .container-foter .sec{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container-foter .sec.about .quickLinks .contact{
+        width: 100%;
+    }
+    .copyrighttext{
+        padding: 8px 40px;
+    }
+}
+.login-regester-title-center{
+    text-align: center;
+}
+.chart-box{
+    height: 95vh;
+}
+
+.chart-tittle{
+    color: white !important;
+}
+.chart-buttons-box{
+    margin-top: 40px;
+}
+.chart-valu{
+    font-size: 18px;
+    color: white;
+}
+.dorp-search-box{
+    margin-top: 50px;
+}
+.drop-box{
+    text-align: start;
+}
+.search-box{
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    display: flex;
+}
+.search-form{
+    margin-left: auto;
+}
+.search-bar{
+    margin-right: 5px;
+}
+.table-box{
+    margin-top: 50px;
+}
+.table-hieght{
+    height: 545px;
+}
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    height: 651px;
+    background: white;
+}
+.table td, .table th {
+    padding: 2rem !important;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.name-box{
+    color: #13c8a4;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+      
+      
+  
+  
+  
+  
+  
+  
